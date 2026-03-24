@@ -1,0 +1,76 @@
+:root {
+  --primary-color: #3498db;
+  --background: #f5f5f5;
+  --surface: #ffffff;
+  --panel-bg: #ffffff;
+  --text-color: #212529;
+  --muted: #495057;
+  --border-color: #dee2e6;
+  --input-bg: #ffffff;
+  --progress-track: #e9ecef;
+  --success-color: #198754;
+  --success-soft: rgba(25, 135, 84, 0.12);
+  --danger-color: #dc3545;
+  --danger-soft: rgba(220, 53, 69, 0.12);
+  --warning-color: #f59f00;
+  --focus-ring: rgba(52, 152, 219, 0.25);
+  --shadow-color: rgba(0, 0, 0, 0.08);
+  color-scheme: light;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary-color: #5dade2;
+    --background: #1e1e1e;
+    --surface: #2a2a2a;
+    --panel-bg: #2a2a2a;
+    --text-color: #f8f9fa;
+    --muted: #adb5bd;
+    --border-color: #495057;
+    --input-bg: #343a40;
+    --progress-track: #495057;
+    --success-color: #75b798;
+    --success-soft: rgba(117, 183, 152, 0.14);
+    --danger-color: #ea868f;
+    --danger-soft: rgba(234, 134, 143, 0.14);
+    --warning-color: #ffda6a;
+    --focus-ring: rgba(110, 168, 254, 0.24);
+    --shadow-color: rgba(0, 0, 0, 0.2);
+    color-scheme: dark;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+body {
+  margin: 0;
+  color: var(--text-color);
+  background: var(--background);
+}
+
+a {
+  color: inherit;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}

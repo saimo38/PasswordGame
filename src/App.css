@@ -1,0 +1,108 @@
+.password-card {
+  width: min(100%, 700px);
+  background-color: var(--surface);
+  border: 1px solid var(--border-color);
+  color: var(--text-color);
+}
+
+.text-secondary,
+.form-text {
+  color: var(--muted) !important;
+}
+
+.form-label,
+.h2,
+.h5,
+.h6 {
+  color: var(--text-color);
+}
+
+.form-control {
+  background-color: var(--input-bg);
+  border-color: var(--border-color);
+  color: var(--text-color);
+}
+
+.form-control::placeholder {
+  color: var(--muted);
+}
+
+.form-control:focus {
+  background-color: var(--input-bg);
+  border-color: var(--primary-color);
+  color: var(--text-color);
+  box-shadow: 0 0 0 0.25rem var(--focus-ring);
+}
+
+.progress {
+  height: 0.9rem;
+  background-color: var(--progress-track);
+}
+
+.progress-bar {
+  transition: width 0.3s ease;
+}
+
+.toggle-button {
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+}
+
+.toggle-button:hover,
+.toggle-button:focus {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  color: #fff;
+}
+
+.toggle-button:focus {
+  box-shadow: 0 0 0 0.25rem var(--focus-ring);
+}
+
+.list-group-item {
+  background-color: var(--panel-bg);
+  border-color: var(--border-color);
+  color: var(--text-color);
+}
+
+.list-group-item.is-valid {
+  color: var(--success-color);
+}
+
+.list-group-item.is-invalid {
+  color: var(--danger-color);
+}
+
+.badge.bg-secondary-subtle {
+  background-color: var(--progress-track) !important;
+  color: var(--text-color) !important;
+}
+
+.country-validator-card {
+  border-radius: 0.75rem;
+}
+
+.country-validator-text {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.country-flag,
+.flag-placeholder {
+  width: 64px;
+  height: 48px;
+  border-radius: 0.5rem;
+  border: 1px solid var(--border-color);
+  background-color: var(--input-bg);
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.flag-placeholder {
+  display: grid;
+  place-items: center;
+  color: var(--muted);
+  font-weight: 700;
+}
