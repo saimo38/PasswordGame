@@ -36,7 +36,7 @@ jobs:
           # Cesta, kde se po buildu vytvoří výsledný projekt 
           path: ./dist
 
-deploy:
+  deploy:
     permissions:
       contents: read
       pages: write
